@@ -13,6 +13,7 @@ public:
     Voiture(void);
     Voiture(int, int);
     virtual void accelerer(void);
+    int getNbVoiture(void);
 };
 
 #endif
